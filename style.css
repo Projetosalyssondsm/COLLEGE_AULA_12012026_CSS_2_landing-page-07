@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding:0;
+    font-family: "Poppins", sans-serif;
 }
 #header{
     width: 100vw;
@@ -15,6 +18,7 @@
 }
 #button{
     padding-right: 4vw;
+    margin-top: 2vh;
 }
 
 #menu-a {
@@ -51,4 +55,115 @@
     border: none;
     cursor: pointer;
     font-weight: bold;
+}
+
+#hero{
+    height: 60vh;
+    width: 100vw;
+    background-image: url("./assets/navio.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#titles{
+    text-align: center;
+}
+
+#titles h3{
+    color:orangered;
+    font-size: 26px;
+}
+#titles h1{
+    color: white;
+    font-size: 42px;
+}
+
+#trackingInput input {
+    width: 20vw;
+    height: 6.5vh;
+    border: none;
+    outline:none;
+    padding-left: 10px;
+}
+
+#trackingInput button {
+
+    background-color: orangered;
+    color: white;
+    height: 6.6vh;
+    width: 8vw;
+    border: none;
+    cursor: pointer;
+    margin-left: -5px;
+    font-size: 11px;
+    font-weight: 200;
+}
+#trackingInput{
+    margin-top: 3vh;
+}
+
+#RequestQuote{
+    width: 100vw;
+    height: 60vh;
+    background: color #f2f2f4;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 2w;
+}
+#RequestQuoteTitle{
+    
+    width: 40vw;
+}
+
+#RequestQuoteForm{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: orangered;
+    width: 30W;
+}
+
+#RequestQuoteInformations {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+#RequestQuoteTitleDiv h4{
+    color: orangered;
+    font-size: 14px;
+
+} 
+
+#RequestQuoteTitleDiv h1{
+    font-size: 32px;
+    margin-bottom: 2vh
+
+} 
+#RequestQuoteTitleDiv p {
+    color: #9e9e9f;
+    font-size: 14px;
+}
+
+#RequestQuoteTitleDiv{
+    margin-bottom: 4vh;
+    
+}
+.RequestQuoteInformationsDiv{
+    height: 8vh;
+    width: 12vw;
+
+}
+.RequestQuoteInformationsDiv span{
+    font-weight: bold;
+    font-size: 22px;
+    color: orangered;
+}
+.RequestQuoteInformationsDiv p {
+    font-weight: bold;
+    font-size: 12px;
 }
